@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+body {
+    font-family: 'Kanit', Arial, sans-serif;
+    background: #e8f5e9;
+    color: #1b5e20;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #388e3c;
+    color: #fff;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #66bb6a;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    color: #2e7d32;
+    font-weight: 700;
+}
+
+section, article {
+    background: #c8e6c9;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(34, 139, 34, 0.06);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(56, 142, 60, 0.08);
+}
+
+footer {
+    background: #388e3c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    margin-top: 2rem;
+    border-radius: 0 0 8px 8px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    main {
+        padding: 0.5rem;
+    }
+    section, article {
+        padding: 0.5rem;
+    }
+}
